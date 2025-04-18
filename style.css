@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Garamond';
+    background-color: #222221;
+}
+
+.cabecera{
+    background-color: rgb(26, 26, 26);
+    border-bottom: 2px solid rgb(242, 189, 56);
+    margin: auto
+}
+h1{
+    font-size: 8em;
+    color: rgb(242, 189, 56);
+    font-weight: 900;
+}
+.subtitle{
+    font-size: 3em;
+    color: rgb(242, 189, 56);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info{
+    color: grey;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+
+.gamemode{
+    width: 20em;
+    font-size: 4em;
+    color: rgb(242, 189, 56);
+    background-color: rgb(55, 55, 55);
+    border: 2px solid rgb(242, 189, 56);
+    transition: 0.2s;
+}
+
+.gamemode:hover{
+    background-color: rgb(62, 61, 61);
+    color: rgb(255, 211, 101);
+    border: 2px solid rgb(255, 211, 101);
+    transform: scale(1.025);
+}
